@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+    rpcx-example3:
+        image: rpcx:latest
+        ports:
+          - 8972:8972
+        container_name: rpcx-example3
+        volumes: 
+            - ./101basic:/go/src/code
