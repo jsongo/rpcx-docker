@@ -2,7 +2,7 @@ version: '3'
 
 services:
     rpcx-example3:
-        image: rpcx:latest
+        image: jsongo/rpcx:latest
         ports:
           - 8972:8972
         container_name: rpcx-example3
